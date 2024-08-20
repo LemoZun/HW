@@ -156,7 +156,7 @@ namespace HW
                         return new Food("음식");
                     default:
                         Console.WriteLine("입력 에러");
-                        return new Item(); // 이러면 안되는데 Item을 return 안하고 강제 종료시킬 순 없나?
+                        return null; // 이러면 안되는데 Item을 return 안하고 강제 종료시킬 순 없나? 일단 null로
                         
                 }
             }
